@@ -29,8 +29,8 @@ while True:
   current_time = now.strftime("%H%M") #define current time. (it is only hours and minutes.)
   n = int(current_time)  #define n to current time converted to an integer
 
-  if n > 1200: #this is for 12 hour time 
-     n = n - 1200 #convert from 24h time to 12h time     
+  if n > 1300: #this is for 12 hour time 
+     n = n - 1300 #convert from 24h time to 12h time     
 
   print("Current Time =", n) #display the time
   print("Factored:") 
