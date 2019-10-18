@@ -30,7 +30,7 @@ while True:
   n = int(current_time)  #define n to current time converted to an integer
 
   if n > 1300: #this is for 12 hour time 
-     n = n - 1300 #convert from 24h time to 12h time     
+     n = n - 1200 #convert from 24h time to 12h time     
 
   print("Current Time =", n) #display the time
   print("Factored:") 
