@@ -1,6 +1,6 @@
 '''This program is free software. It is licensed under the Apache 2.0 license. Original author: Kaz Malhotra'''
 #https://xkcd.com/247/
-
+#this is a test for the gh-pages branch and non-html scripts
 from datetime import datetime #import stuff
 import math
 import time
