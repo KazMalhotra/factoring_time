@@ -24,7 +24,7 @@ def primeFactors(n):
     if n > 2: 
         print (n) 
 
-while True:
+for i in range(10):
   now = datetime.now()  #define now
   current_time = now.strftime("%H%M") #define current time. (it is only hours and minutes.)
   n = int(current_time)  #define n to current time converted to an integer
@@ -35,4 +35,4 @@ while True:
   print("Current Time =", n) #display the time
   print("Factored:") 
   primeFactors(n) # process n through prime factors
-  time.sleep(1) #wait a second and then repeat!
+  time.sleep(60) #wait a minute and then repeat!
